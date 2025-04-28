@@ -300,6 +300,11 @@ span.awc-span-alert1 {
     text-align: right;
     justify-content: flex-end;
 }
+.carousel-indicators [data-bs-target]::after {
+width: 50px !important;
+height: auto;
+border: 1px solid red !important;
+}
 
 @media (max-width: 844px) {
     nav.navbar.navbar-expand-lg.md.navbar-light {

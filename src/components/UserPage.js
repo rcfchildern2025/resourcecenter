@@ -2,11 +2,13 @@ import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import { Col, Row, Table, Tabs } from "react-bootstrap";
 import "../assets/css/UserPage.css";
-import Groupimages1 from "../assets/images/Groupchild.png";
 import PoorImg from "../assets/images/poorimg.png";
 import { Tab } from "bootstrap/dist/js/bootstrap.bundle.min";
 import Carousel from 'react-bootstrap/Carousel';
 import Footer from "../components/footer/Footer"
+import Banner1 from "../assets/images/banner-1.png";
+import Banner2 from "../assets/images/banner-2.png";
+import Banner3 from "../assets/images/banner-3.png";
 function UserPage() {
   return (
     <div className="container-fluid">
@@ -23,7 +25,7 @@ function UserPage() {
            </div>
         </Row> */}
 
-           <Carousel className="resorce-craousal">
+           <Carousel className="resorce-craousal  " interval={3000} pause={false}>
               <Carousel.Item>
               <Row className="resorce-img">
        
@@ -39,7 +41,7 @@ function UserPage() {
            <div>
              <i>
                <img
-                 src={Groupimages1}
+                 src={Banner1}
                  alt="groupimage"
                  className="img-fluid"
                ></img>
@@ -67,13 +69,43 @@ function UserPage() {
            <div>
              <i>
                <img
-                 src={Groupimages1}
+                 src={Banner2}
                  alt="groupimage"
                  className="img-fluid"
                ></img>
              </i>
            </div>
          </Col>
+         
+        
+       </Row>
+                <Carousel.Caption>
+               
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Row className="resorce-img">
+       
+       <Col lg={6} md={6} sm={12}>
+           <div className="resorce-sub-title">
+             <h1>Nurturing Little Hearts</h1>
+             <h1>Growing Bright Futures</h1>
+             <p>Safe, Loving, and Supportive Care for Every Child</p>
+           </div>
+         </Col>
+
+                 <Col lg={6} md={6} sm={12}>
+           <div>
+             <i>
+               <img
+                 src={Banner3}
+                 alt="groupimage"
+                 className="img-fluid"
+               ></img>
+             </i>
+           </div>
+         </Col>
+         
         
        </Row>
                 <Carousel.Caption>

@@ -80,40 +80,81 @@
 .child-thead {
     border: var(--awc-space-25) #F6B325 solid;
 }
-.recorce-accordion{
+
+.recorce-accordion {
     display: none;
 }
-.accordion-button{
-background-color: #F6B325;
-color: var(--awc-white);
-margin-top:var(--awc-space-200);
-box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.1);
+
+.accordion-button {
+    background-color: #F6B325;
+    color: var(--awc-white);
+    margin-top: var(--awc-space-200);
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.1);
 }
-.accordion-button:not(.collapsed){
+
+.accordion-button:not(.collapsed) {
     background-color: #eef4ed;
     box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.1);
     border: var(--awc-space-25) #eef4ed solid;
 }
-.accordion-button::after{
-background-image: url("../images/arrow_icon.svg") !important;
+
+.accordion-button::after {
+    background-image: url("../images/arrow_icon.svg") !important;
 }
 
+.carousel-control-next-icon {
+
+    border: 1px var(--awc-black) solid;
+    border-radius: 24px;
+    background-color: hwb(0 0% 100%);
+}
+
+.carousel-control-prev-icon {
+    border: var(--awc-space-25) hwb(0 0% 100%) solid;
+    border-radius: var(--awc-space-550);
+    background-color: hwb(0 0% 100%);
+}
+
+.carousel-indicators [data-bs-target]::before {
+    width: 50px;
+    height: auto;
+    border-radius: 1px solid red;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: hwb(0 0% 100%) !important;
+    border-radius: 12px !important;
+    border: 1px solid hwb(0 0% 100%) ;
+}
+.carousel-indicators .active{
+ border: 1px solid hwb(0 0% 100%);
+
+}
+
+.carousel-indicators>button {
+    border-radius: 12px !important;
+    width: 12px !important;
+    height: 12px !important;
+}
 
 @media only screen and (max-width: 568px) {
     .resorce-sub-title {
         margin-top: var(--awc-space-0);
     }
-    .resorce-tabs1{
+
+    .resorce-tabs1 {
         display: none;
-        }
-    
-    .recorce-accordion{
+    }
+
+    .recorce-accordion {
         display: table;
     }
-    .table-tab{
+
+    .table-tab {
         background: border-box;
     }
-    .resorce-sub-list h1{
+
+    .resorce-sub-list h1 {
         margin-top: var(--awc-space-500);
     }
 

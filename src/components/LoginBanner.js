@@ -1,10 +1,13 @@
 import React from "react";
 import { Col, Form, Row } from "react-bootstrap";
 import "font-awesome/css/font-awesome.min.css";
-import Groupchild from "../assets/images/Groupchild.png";
+
 import Footer from "../components/footer/Footer"
 import Loginimg from "../../src/assets/images/admin_login.png"
 import Carousel from 'react-bootstrap/Carousel';
+import LoginBanner1 from "../assets/images/banner-3.png";
+import LoginBanner3 from "../assets/images/banner-2.png";
+import LoginBanner2 from "../assets/images/banner-1.png";
 import Login from "./Login";
 
 
@@ -41,11 +44,11 @@ const LoginBanner = () => {
           className="awc-col awc-p awc-border awc-bg-img"
         >
           
-          <Carousel className="resorce-craousal">
+          <Carousel className="resorce-craousal" interval={3000} pause={false}>
       <Carousel.Item>
         {/* <Group text="First slide" /> */}
         <div>
-          <i><img src={Groupchild} alt="carousel img" className="img-fluid"></img></i>
+          <i><img src={LoginBanner1} alt="carousel img" className="img-fluid"></img></i>
         </div>
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -55,7 +58,7 @@ const LoginBanner = () => {
       <Carousel.Item>
         {/* <Group text="Second slide" /> */}
         <div>
-        <i><img src={Groupchild} alt="carousel img" className="img-fluid img-width" ></img></i>
+        <i><img src={LoginBanner2} alt="carousel img" className="img-fluid img-width" ></img></i>
         </div>
         <Carousel.Caption>
           {/* <h3>Second slide label</h3>
@@ -65,7 +68,7 @@ const LoginBanner = () => {
       <Carousel.Item>
         {/* <Group text="Third slide" /> */}
         <div>
-        <i><img src={Groupchild} alt="carousel img" className="img-fluid"></img></i>
+        <i><img src={LoginBanner3} alt="carousel img" className="img-fluid"></img></i>
         </div>
         <Carousel.Caption>
           {/* <h3>Third slide label</h3>

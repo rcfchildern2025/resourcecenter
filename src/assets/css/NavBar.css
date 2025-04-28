@@ -60,6 +60,7 @@ img.logo-wecd {
     font-size: var(--awc-space-300);
     color: var(--awc-Primary);
     margin-top: var(--awc-space-100);
+    margin-left: 12px;
 }
 
 @media (max-width: 576px) {
