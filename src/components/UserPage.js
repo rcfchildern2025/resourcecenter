@@ -9,6 +9,7 @@ import Footer from "../components/footer/Footer"
 import Banner1 from "../assets/images/banner-1.png";
 import Banner2 from "../assets/images/banner-2.png";
 import Banner3 from "../assets/images/banner-3.png";
+import Groupchild from "../assets/images/Groupchild.png"
 function UserPage() {
   return (
     <div className="container-fluid">
@@ -41,6 +42,36 @@ function UserPage() {
               <div>
                 <i>
                   <img
+                    src={Groupchild}
+                    alt="groupimage"
+                    className="img-fluid"
+                  ></img>
+                </i>
+              </div>
+            </Col>
+
+          </Row>
+          <Carousel.Caption>
+
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Row className="resorce-img">
+
+            <Col lg={6} md={6} sm={12}>
+
+              <div className=" d-flex flex-column h-100 align-items-start justify-content-center bottom-0 resorce-sub-title ">
+                <h1 className=" bg-opacity-50 py-2 px-4">Nurturing Little Hearts<br></br> Growing Bright Futures</h1>
+                <p className=" bg-opacity-50 py-2 px-4">Safe, Loving, and Supportive Care for Every Child</p>
+
+              </div>
+
+            </Col>
+
+            <Col lg={6} md={6} sm={12}>
+              <div>
+                <i>
+                  <img
                     src={Banner1}
                     alt="groupimage"
                     className="img-fluid"
@@ -48,6 +79,7 @@ function UserPage() {
                 </i>
               </div>
             </Col>
+
 
           </Row>
           <Carousel.Caption>

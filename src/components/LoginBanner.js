@@ -8,6 +8,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import LoginBanner1 from "../assets/images/banner-3.png";
 import LoginBanner3 from "../assets/images/banner-2.png";
 import LoginBanner2 from "../assets/images/banner-1.png";
+import Groupchild from "../assets/images/Groupchild.png"
 import Login from "./Login";
 
 
@@ -45,6 +46,16 @@ const LoginBanner = () => {
         >
           
           <Carousel className="resorce-craousal" interval={3000} pause={false}>
+      <Carousel.Item>
+        {/* <Group text="First slide" /> */}
+        <div>
+          <i><img src={Groupchild} alt="carousel img" className="img-fluid"></img></i>
+        </div>
+        <Carousel.Caption>
+          {/* <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+        </Carousel.Caption>
+      </Carousel.Item>
       <Carousel.Item>
         {/* <Group text="First slide" /> */}
         <div>

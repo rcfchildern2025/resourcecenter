@@ -137,6 +137,34 @@
     width: 12px !important;
     height: 12px !important;
 }
+@media (max-width: 1180px) {
+    .recorce-accordion {
+        display: block;
+    }
+    .table-tab {
+        background-color: snow;
+    }
+    .resorce-tabs1{
+        display: none;
+    }
+    button.accordion-button.collapsed {
+        border-radius: var(--awc-space-200) !important;
+        background-color: var(--awc-blue);
+        color: var(--awc-white);
+        margin-bottom: var(--awc-space-300);
+    }
+}
+@media (max-width: 844px) {
+    .recorce-accordion {
+        display: block;
+    }
+    .table-tab {
+        background-color: snow;
+    }
+    .resorce-tabs1{
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 568px) {
     .resorce-sub-title {

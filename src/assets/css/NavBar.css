@@ -65,7 +65,9 @@ img.logo-wecd {
 
 @media (max-width: 576px) {
 
-
+    .awc-title p{
+        font-size: var(--awc-space-200);
+    }
 
     .awc-title p {
         display: none;
