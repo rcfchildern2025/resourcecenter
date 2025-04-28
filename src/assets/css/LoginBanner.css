@@ -315,7 +315,7 @@ span.awc-span-alert1 {
     }
 
     .awc-login {
-        margin: var(--awc-space-0) !important;
+        margin: var(--awc-space-200) var(--awc-space-0) var(--awc-space-0) var(--awc-space-0) !important;
     }
 
 
