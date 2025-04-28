@@ -45,7 +45,7 @@ const LoginBanner = () => {
       <Carousel.Item>
         {/* <Group text="First slide" /> */}
         <div>
-          <i><img src={Groupchild} alt="carousel img" className="img-fluid img-width"></img></i>
+          <i><img src={Groupchild} alt="carousel img" className="img-fluid"></img></i>
         </div>
         <Carousel.Caption>
           {/* <h3>First slide label</h3>
@@ -65,7 +65,7 @@ const LoginBanner = () => {
       <Carousel.Item>
         {/* <Group text="Third slide" /> */}
         <div>
-        <i><img src={Groupchild} alt="carousel img" className="img-fluid img-width"></img></i>
+        <i><img src={Groupchild} alt="carousel img" className="img-fluid"></img></i>
         </div>
         <Carousel.Caption>
           {/* <h3>Third slide label</h3>
