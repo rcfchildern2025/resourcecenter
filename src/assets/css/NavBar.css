@@ -20,7 +20,7 @@
 .awc-title {
     line-height: var(--awc-space-400);
     color: var(--awc-black) !important;
-    /* margin-top: 12px; */
+    margin-top: 18px;
 }
 
 img.logo1 {
@@ -69,6 +69,10 @@ img.logo-wecd {
 
     .awc-title p {
         display: none;
+    }
+
+    .awc-title {
+        margin-top: 4px;
     }
 
     .logo {
