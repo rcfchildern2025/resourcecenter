@@ -3,25 +3,29 @@
     margin-right: var(--awc-space-400);
     margin-top: var(--awc-space-150)
 }
-.bg-img1{
+
+.bg-img1 {
     background-image: url("../images/bg.png");
     background-size: cover;
     height: auto;
     overflow: hidden;
 }
 
-.nd-form{
+.nd-form {
     padding: var(--awc-space-300);
 
 }
-.awc-login{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   background-color: #FFFDF6;
-   margin: var(--awc-space-500);
-   padding-top:var(--awc-space-500)
+
+.awc-login {
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    background-color: #FFFDF6;
+    margin: var(--awc-space-500);
+    padding-top: var(--awc-space-500);
+    border-radius: var(--awc-space-200);
 
 }
-.img-width{
+
+.img-width {
     width: 100% !important;
 }
 
@@ -31,7 +35,7 @@
 
 .wced-logo {
     width: 60px;
-    
+
 }
 
 .uk-logo {
@@ -136,7 +140,7 @@
 
 .awc-bg-img {
 
-   
+
     background-size: cover;
     height: auto;
     overflow: hidden;
@@ -274,34 +278,40 @@ span.awc-span-alert1 {
     font-size: var(--awc-space-300);
     color: var(--awc-Primary);
 }
-.nd-login-title h1{
-    
+
+.nd-login-title h1 {
+
     font-size: var(--awc-space-500);
     text-align: center;
     margin-top: var(--awc-space-300);
 }
-.admin-pannel-img{
-    font-size:var(--awc-space-500);
-   text-align: center;
+
+.admin-pannel-img {
+    font-size: var(--awc-space-500);
+    text-align: center;
     margin-top: var(--awc-space-300);
 }
-.admin-pannel-img i{
+
+.admin-pannel-img i {
     padding-right: var(--awc-space-200);
-   
+
 }
 
 
-.resorce-craousal{
+.resorce-craousal {
     text-align: right;
     justify-content: flex-end;
 }
+
 @media (max-width: 844px) {
     nav.navbar.navbar-expand-lg.md.navbar-light {
         padding: var(--awc-space-250);
     }
-    .awc-login{
+
+    .awc-login {
         margin: var(--awc-space-0) !important;
     }
+
     .nav-sub-list {
         width: 160px;
     }
@@ -387,7 +397,7 @@ span.awc-span-alert1 {
     }
 
 
-    
+
 
 
 }
