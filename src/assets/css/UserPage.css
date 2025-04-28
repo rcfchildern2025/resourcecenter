@@ -11,7 +11,7 @@
 }
 
 .resorce-sub-title {
-    margin-top: 160px;
+
     text-align: center;
 }
 
@@ -124,10 +124,11 @@
 .carousel-indicators [data-bs-target] {
     background-color: hwb(0 0% 100%) !important;
     border-radius: 12px !important;
-    border: 1px solid hwb(0 0% 100%) ;
+    border: 1px solid hwb(0 0% 100%);
 }
-.carousel-indicators .active{
- border: 1px solid hwb(0 0% 100%);
+
+.carousel-indicators .active {
+    border: 1px solid hwb(0 0% 100%);
 
 }
 
