@@ -160,6 +160,11 @@ label.form-check-label {
   padding: var(--awc-space-200) !important;
 }
 
+.accordion-item {
+  border: 0px !important;
+  border-radius: var(--awc-space-200);
+}
+
 @media only screen and (max-width: 568px) {
   .awc-login {
     margin: var(--awc-space-200) var(--awc-space-0) var(--awc-space-0) var(--awc-space-0) !important;
