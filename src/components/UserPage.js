@@ -189,7 +189,7 @@ function UserPage() {
         </Col>
       </Row>
 
-      <Row className="table-tab mt-3">
+      <div className="table-tab mt-3 ">
         <div className="recorce-accordion">
           <Accordion defaultActiveKey="0" >
             <Accordion.Item eventKey="0">
@@ -681,7 +681,7 @@ function UserPage() {
 
           </Tabs>
         </div>
-      </Row>
+      </div>
       <Footer />
     </div >
   );
